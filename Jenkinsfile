@@ -11,7 +11,7 @@ pipeline {
                 sh 'docker stop react-app || true'
                 sh 'docker rm react-app || true'
                 sh 'docker build -t react-app .'
-                sh 'docker run -d -p 80:5173 --name react-app react-app'
+                sh 'docker run -d -p 80:8080 --name react-app react-app'
             }
         }
     }
