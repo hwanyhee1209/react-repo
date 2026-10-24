@@ -22,8 +22,9 @@ function App() {
           </p>
         </div>
         <button
+
           type="button"
-          className="counter"
+          className="bg-amber-500 rounded-full h-10 w-40 hover:bg-red-600"
           onClick={() => setCount((count) => count+1)}
         >
           Count is {count}
