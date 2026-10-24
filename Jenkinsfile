@@ -10,7 +10,7 @@ pipeline {
         stage('Git Clone') {
             steps {
                 // 지정한 Git 레포지토리의 main 브랜치 코드를 체크아웃(다운로드)
-                git branch: 'main', url: 'https://github.com/깃허브ID/react-repo.git'
+                git branch: 'main', url: 'https://github.com/hwanyhee1209/react-repo.git'
             }
         }
 
